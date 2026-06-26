@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: 'Kanit', sans-serif;
+}
+
+/* Custom retro/glow styles for the Dan Sai Adventure style */
+@keyframes pulse-glow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(239, 68, 68, 0.5), 0 0 15px rgba(239, 68, 68, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(239, 68, 68, 0.8), 0 0 25px rgba(239, 68, 68, 0.5);
+  }
+}
+
+.kanit-glow {
+  font-family: 'Kanit', sans-serif;
+  animation: pulse-glow 3s infinite;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  overflow: hidden;
+  user-select: none;
+}
+

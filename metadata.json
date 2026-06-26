@@ -1,0 +1,6 @@
+{
+  "name": "Dan Sai Adventure",
+  "description": "Start screen and control customizer for Dan Sai Adventure, featuring playable local mini-game with custom virtual/keyboard controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
